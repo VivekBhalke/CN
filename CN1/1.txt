@@ -1,3 +1,18 @@
+1. ifconfig:
+   gives ip address , default gateway , windows command- ipconfig
+   also gives the MAC address at data link layer.
+2. nslookup-
+   gives ip address of the domain name given
+3. ping -
+   checks the reachability of desitnation throws error if not
+4. netstat -
+   get numeric data related to network.
+5. traceroute - 
+   from source to destination , how many routers it has hit , gives IP address of routes.
+
+
+ifconfig command details -> 
+
 eno1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.10.11.48  netmask 255.255.248.0  broadcast 10.10.15.255
         inet6 fd48:c865:fd97:0:8eec:4bff:fec7:af35  prefixlen 64  scopeid 0x0<global>
@@ -30,3 +45,4 @@ flags — tells if your network is on, working, supports broadcasting, etc.
 
 
 lo -> loopback address -> localhost 
+
